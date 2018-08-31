@@ -1,0 +1,23 @@
+{
+  "name": "srbmusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://krishnanath.github.io/SRBsounding",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnanath/SRBsounding.git"
+  },
+  "author": "krishnanath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishnanath/SRBsounding/issues"
+  }
+}

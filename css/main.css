@@ -1834,7 +1834,8 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
  * ------------------------------------------------------------------- */
 
 #services {
-  background-color: #19191b;
+  /* background-color: #19191b; */
+  background-color: #ffffff;
   background-image: url(../images/services-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1853,7 +1854,8 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.7);
+  /* background-color: rgba(5, 5, 5, 0.7); */
+  background-color: rgba(5, 5, 5, 0.4);
 }
 #services .gradient-overlay {
   position: absolute;
@@ -1946,7 +1948,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
-  background: #111111;
+  background: rgb(29, 28, 28);
 }
 #portfolio .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
@@ -1986,6 +1988,8 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 #contact {
   background-color: #111111;
   background-image: url(../images/contact-bg.jpg);
+  /* background-image: url(../images/services-bg.jpg); */
+
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2001,7 +2005,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
   width: 100%;
   height: 100%;
   opacity: 0.75;
-  background-color: #000000;
+  background-color: #1f1e1e;
 }
 #contact .section-intro h1 {
   color: white;
@@ -2025,7 +2029,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
-  color: #555555;
+  color: #929292;
   font-size: 1.4rem;
 }
 
@@ -2416,7 +2420,7 @@ footer h4.h05::after {
   width: 60px;
   line-height: 63px;
   text-align: center;
-  background-color: #000000;
+  background-color: #f5ecec;
   color: #888;
   text-align: center;
   text-transform: uppercase;
